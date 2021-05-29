@@ -25,7 +25,7 @@ namespace coreEscuela
             CargarEvaluaciones();
 
         }
-
+        #region Metodos de carga
         private void CargarEvaluaciones()
         {
             foreach (var curso in Escuela.Cursos)
@@ -116,6 +116,7 @@ namespace coreEscuela
                 c.Alumnos = GenerarAlumnosAlAzar(cantRandom);
             }
         }
+        #endregion
     }
 
 }
