@@ -6,6 +6,6 @@ namespace coreEscuela.Entidades
 {
     public enum LlaveDiccionario
     {
-        Escuela,Curso,Alumno,Asignatura,Evaluaciones
+        Escuela,Curso,Alumno,Asignatura,Evaluacion
     }
 }
